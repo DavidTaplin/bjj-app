@@ -7,7 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddMoveComponent implements OnInit {
 
-  constructor() { }
+
+
+
+
+
+  constructor() {}
+
+  addMove() {
+    console.log('i was clicked')  }
+
 
   ngOnInit(): void {
   }
