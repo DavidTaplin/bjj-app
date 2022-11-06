@@ -8,5 +8,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'BJJ Technique Library';
 
+  pageDisplayed = "Home"
 
-}
+onNavigatePage(page: string) {
+
+    this.pageDisplayed = page;
+
+
+} }

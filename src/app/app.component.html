@@ -1,9 +1,12 @@
 
 <header>
-<app-nav-bar></app-nav-bar>
+<app-nav-bar (currentPage)="onNavigatePage($event)"></app-nav-bar>
 </header>
 
 <div> <h1> <strong>{{ title }} </strong> </h1> </div>
+<app-competitor *ngIf="pageDisplayed === 'Competitor'"></app-competitor>
 
-<app-add-move></app-add-move>
+<app-professor *ngIf="pageDisplayed === 'Professor'"></app-professor>
+
+<app-add-move *ngIf="pageDisplayed === 'Add-Move'"></app-add-move>
 

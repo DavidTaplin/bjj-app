@@ -8,6 +8,7 @@ import { AddMoveComponent } from './add-move/add-move.component';
 import { ProfessorComponent } from './professor/professor.component';
 import { CompetitorComponent } from './competitor/competitor.component';
 import { FormsModule } from '@angular/forms';
+import { MoveComponent } from './shared/move/move.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FormsModule } from '@angular/forms';
     NavBarComponent,
     AddMoveComponent,
     ProfessorComponent,
-    CompetitorComponent
+    CompetitorComponent,
+    MoveComponent
   ],
   imports: [
     BrowserModule,
