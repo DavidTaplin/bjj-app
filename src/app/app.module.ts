@@ -7,6 +7,7 @@ import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
 import { AddMoveComponent } from './add-move/add-move.component';
 import { ProfessorComponent } from './professor/professor.component';
 import { CompetitorComponent } from './competitor/competitor.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CompetitorComponent } from './competitor/competitor.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

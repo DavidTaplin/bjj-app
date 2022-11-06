@@ -14,8 +14,13 @@ export class AddMoveComponent implements OnInit {
 
   constructor() {}
 
+  public name: string;
+  public position: string;
+  public type: string;
   addMove() {
-    console.log('i was clicked')  }
+    console.log(this.name),
+  console.log(this.position),
+console.log(this.type)  }
 
 
   ngOnInit(): void {
