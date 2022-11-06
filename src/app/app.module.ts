@@ -9,6 +9,10 @@ import { ProfessorComponent } from './professor/professor.component';
 import { CompetitorComponent } from './competitor/competitor.component';
 import { FormsModule } from '@angular/forms';
 import { MoveComponent } from './shared/move/move.component';
+import { MoveDetailsComponent } from './competitor/move-details/move-details.component';
+import { MoveListComponent } from './competitor/move-list/move-list.component';
+import { MoveSearchComponent } from './professor/move-search/move-search.component';
+import { MoveResultsComponent } from './professor/move-results/move-results.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,12 @@ import { MoveComponent } from './shared/move/move.component';
     AddMoveComponent,
     ProfessorComponent,
     CompetitorComponent,
-    MoveComponent
+    MoveComponent,
+    MoveDetailsComponent,
+    MoveListComponent,
+    MoveSearchComponent,
+    MoveResultsComponent
+
   ],
   imports: [
     BrowserModule,
