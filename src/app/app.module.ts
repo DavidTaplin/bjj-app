@@ -13,6 +13,7 @@ import { MoveDetailsComponent } from './competitor/move-details/move-details.com
 import { MoveListComponent } from './competitor/move-list/move-list.component';
 import { MoveSearchComponent } from './professor/move-search/move-search.component';
 import { MoveResultsComponent } from './professor/move-results/move-results.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { MoveResultsComponent } from './professor/move-results/move-results.comp
     MoveDetailsComponent,
     MoveListComponent,
     MoveSearchComponent,
-    MoveResultsComponent
+    MoveResultsComponent,
+    HomeComponent
 
   ],
   imports: [
