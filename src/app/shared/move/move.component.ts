@@ -14,6 +14,3 @@ export class MoveComponent implements OnInit {
   }
 
 }
-const MOVES = Move[
-  {name: 'triangle choke', position: 'guard', type: 'submission'}
-]

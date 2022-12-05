@@ -14,6 +14,7 @@ import { MoveListComponent } from './competitor/move-list/move-list.component';
 import { MoveSearchComponent } from './professor/move-search/move-search.component';
 import { MoveResultsComponent } from './professor/move-results/move-results.component';
 import { HomeComponent } from './home/home.component';
+import { MovesComponent } from './competitor/moves/moves.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { HomeComponent } from './home/home.component';
     MoveListComponent,
     MoveSearchComponent,
     MoveResultsComponent,
-    HomeComponent
+    HomeComponent,
+    MovesComponent
 
   ],
   imports: [
